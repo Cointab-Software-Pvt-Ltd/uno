@@ -11,7 +11,7 @@ Set-PSDebug -Trace 1
 $external_docs = @{
     # use either commit, or branch name to use its latest commit
     "uno.wasm.bootstrap" = @{ ref="3f4abe8c9467635e63644bb0c6c77144f52ede85" } #latest main commit
-    "uno.themes" = @{ ref="bce5b27ea45f7cccceaea9c5123e8cd127b8d85e" } #latest master commit
+    "uno.themes" = @{ ref="6e512c23ca1bf47a3623076831be6b7d94d5cc88" } #latest master commit
     "uno.toolkit.ui" = @{ ref="51dd5390ed909c1cccc6c40e1687319990d9e09d" } #latest main commit
     "uno.check" = @{ ref="d80cfb2e37941bfbb8d9d7bd9cc6599567382cff" } #latest main commit
     "uno.xamlmerge.task" = @{ ref="7f3fc6a037ea46ed16963e5551d4d0802acc7114" } #latest main commit
@@ -21,7 +21,7 @@ $external_docs = @{
     "uno.extensions" = @{ ref="28db2d3424a93a801f0265b9221b9a5c089b62d9" } #latest main commit
     "workshops" = @{ ref="3515c29e03dea36cf2206d797d1bf9f8620370e3" } #latest master commit
     "uno.samples" = @{ ref="8098a452951c9f73cbcf8d0ac1348f029820e53a" } #latest master commit
-    "uno.chefs" = @{ ref="c4fb73418a24f846f40e63efb00db761da597b1e" } #latest main commit
+    "uno.chefs" = @{ ref="53030d9fd54623c13de370afca9213a7921021de" } #latest main commit
     "hd-docs"            = @{ ref="ded00dc100ae7dcba4a78fd32d393a58c1d1f23e"; dest="studio/Hot Design" } #latest main commit
 }
 
